@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La cocina Codo a Codo</title>
+    <link rel="icon" href="imagenes/pizza.ico">
 </head>
+
 <body>
     <header>
         <nav>
@@ -17,11 +20,53 @@
         <h1 align="center"><b><u>La cocina Codo a Codo</u></b></h1>
     </header>
     <main>
-        <h3><b>En construccion...</b></h3>
-    </main>        
+        <h3><b>Formulario de registro</b></h3>
+        <form action="show_data.html" target="_blank">
+            <div><label for="Nombre">Nombre: </label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre...">
+            </div>
+            <div><label for="Apellido">Apellido: </label>
+                <Input type="text" name="Apellido" id="Apellido"></Input>
+            </div>
+            <div><label for="Direccion">Dirección: </label>
+                <input type="text" id="Apellido">
+            </div>
+            <div><label for="Ciudad">Ciudad: </label>
+                <input type="text" id="Ciudad" value="La Plata">
+            </div>
+            <div><label for="CP">Código Postal: </label>
+                <input type="text" id="CP">
+            </div>
+            <div>
+                <label for="Fecha de Nacimiento">Fecha de Nacimiento (mm/dd/yyyy):</label>
+                <input type="date" name="Fecha de Nacimiento" id="Fecha de Nacimiento">
+            </div>
+            <div>
+                <label for="Genero">Género:</label>
+                <input type="radio" name="Genero" value="Hombre" id="Genero">Hombre
+                <input type="radio" name="Genero" value="mujer" id="Genero">mujer
+                <input type="radio" name="Genero" value="otro" id="Genero">Otro
+            </div>
+            <div>
+                <label for="Intereses">Intereses:</label>
+                <input type="checkbox" name="Intereses" value="Cocina">Cocina
+                <input type="checkbox" name="Intereses" value="Musica">Música
+                <input type="checkbox" name="Intereses" value="Idiomas">Idiomas
+                <input type="checkbox" name="Intereses" value="Deportes">Deportes
+                <input type="checkbox" name="Intereses" value="Politica">Politica
+                <input type="checkbox" name="Intereses" value="Tecnologia">Tecnologia
+                <input type="checkbox" name="Intereses" value="Actualidad">Actualidad
+                <input type="checkbox" name="Intereses" value="Finanzas">Finanzas
+                <input type="checkbox" name="Intereses" value="Medio Ambiente">Medio Ambiente
+                <input type="checkbox" name="Intereses" value="Otros">Otros
+            </div>
+            <Input type="submit" value="Enviar">
+            <Input type="reset" value="Borrar">
+        </form>
+    </main>
     <footer align="center">
         <br>
-       <p>@TODOS LOS DERECHOS RESERVADOS</p>
+        <p>@TODOS LOS DERECHOS RESERVADOS</p>
         <br>
     </footer>
 </body>
